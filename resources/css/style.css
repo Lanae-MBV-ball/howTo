@@ -1,6 +1,8 @@
 p {
     color: aqua; /* for black background */
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -8,12 +10,14 @@ body {
 }
 
 h1 {
+    font-family: "Dancing Script", cursive;
     font-size: 3rem; /* for big headings */
     color: aqua;
     text-transform: uppercase; /* make all h1 uppercase */
 }
 
 h2 {
+    font-family: "Dancing Script", cursive;
     font-size: 2rem; /* for subheadings */
     color: rgb(0, 157, 157);
 }
@@ -44,7 +48,7 @@ a {
 
 nav {
     background-color: #b15800; /* light background for nav */
-    padding: 10px; /* some padding */
+    padding: 10px 0; /* some padding */
     border-radius: 6px; /* slightly rounded corners */
     border: 3px solid #ff7f00; /* orange outline — change to taste */
 }
