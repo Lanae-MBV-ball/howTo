@@ -3,6 +3,7 @@ p {
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal;
+    padding: 20px; /* add some padding */
 }
 
 body {
@@ -14,20 +15,24 @@ h1 {
     font-size: 3rem; /* for big headings */
     color: aqua;
     text-transform: uppercase; /* make all h1 uppercase */
+    padding: 20px; /* add some padding */
 }
 
 h2 {
     font-family: "Dancing Script", cursive;
     font-size: 2rem; /* for subheadings */
     color: rgb(0, 157, 157);
+    padding: 20px; /* add some padding */
 }
 
 ol {
     color: #ff7f00; /* for ordered lists */
+    padding: 20px; /* add some padding */
 }
 
 ul {
     color: #b15800; /* for unordered lists */
+    padding: 20px; /* add some padding */
 }
 
 a {
