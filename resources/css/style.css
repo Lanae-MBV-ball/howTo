@@ -8,11 +8,16 @@ p {
 
 body {
     background-color: black; /* for style */
+    border: 5px solid #ff7f00; /* orange border */
+    margin: 30px; /* add some margin */
+    padding: 20px; /* add some padding */
 }
 
 h1 {
     font-family: "Dancing Script", cursive;
     font-size: 3rem; /* for big headings */
+    font-weight: 700; /* make h1 bold */
+    text-align: center; /* center align h1 */
     color: aqua;
     text-transform: uppercase; /* make all h1 uppercase */
     padding: 0 0 0 0; /* add some padding */
@@ -21,7 +26,7 @@ h1 {
 h2 {
     font-family: "Dancing Script", cursive;
     font-size: 2rem; /* for subheadings */
-    padding: 0 0 10px 10px; /* add some padding */
+    padding: 0 0 10px 0; /* add some padding */
     color: rgb(0, 157, 157);
 }
 
@@ -37,24 +42,25 @@ ul {
 
 a {
     color: #ff7f00; /* for links */
-    text-decoration: none; /* remove underline from links */
+    text-decoration: wavy underline; /* wavy underline for links */
+    text-underline-offset: 2px; /* space between text and underline */
+    font-size: larger; /* make links larger */
     font-style: italic; /* make links italic */
 }
 
 /* utility class: add an outline and soft shadow to images */
 .outlined-image {
-    border: 4px solid #000000; /* black outline — change to taste */
-    border-radius: 6px; /* slightly rounded corners */
-    box-shadow: 0 4px 12px #ff7f00; /* subtle shadow */
+    border: 5px solid #ff7f00; /* black outline — change to taste */
+    align-items: center; /* center the image */
     display: block; /* keeps layout predictable */
     max-width: 100%; 
     height: auto;
+    margin: 0 auto; /* center horizontally */
 }
 
 nav {
-    background-color: #b15800; /* light background for nav */
     border-radius: 6px; /* slightly rounded corners */
-    border: 3px solid #ff7f00; /* orange outline — change to taste */
+    border: 5px solid #ff7f00; /* orange outline — change to taste */
 }
 
 /* Make each link inside nav look like an individual boxed button */
@@ -64,6 +70,7 @@ nav {
     justify-content: center; /* center nav items */
     align-items: center;
     padding: 12px; /* slightly larger hit area */
+    margin-left: 5px;
 }
 
 nav a {
@@ -71,7 +78,7 @@ nav a {
     color: #ffddaa; /* lighter text to stand out */
     padding: 8px 14px;
     border: 2px solid #ff7f00;
-    border-radius: 6px;
+    border-radius: 50%; /* pill-shaped buttons */
     text-decoration: none;
     font-weight: 600;
     transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
