@@ -4,6 +4,7 @@ p {
     font-weight: 400;
     font-style: normal;
     padding: 20px; /* add some padding */
+    font-size: 1vw; /* responsive font size */
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 
 h1 {
     font-family: "Dancing Script", cursive;
-    font-size: 3rem; /* for big headings */
+    font-size: 4vw; /* for big headings */
     color: rgb(0, 157, 157);
     text-transform: uppercase; /* make all h1 uppercase */
     padding: 0 0 0 0; /* add some padding */
@@ -26,7 +27,7 @@ h1 {
 
 h2 {
     font-family: "Dancing Script", cursive;
-    font-size: 2rem; /* for subheadings */
+    font-size: 3vw; /* for subheadings */
     padding: 0 0 10px 10px; /* add some padding */
     color: rgb(0, 157, 157);
 }
@@ -34,6 +35,7 @@ h2 {
 ol {
     color: #FFFBDE; /* for ordered lists */
     padding: 20px; /* add some padding */
+    font-size: 1vw; /* responsive font size */
 }
 
 ol li {
@@ -44,6 +46,7 @@ ol li {
 ul {
     color: #FFFBDE; /* for unordered lists */
     padding: 20px; /* add some padding */
+    font-size: 1vw; /* responsive font size */
 }
 
 ul li {
@@ -96,6 +99,7 @@ nav a {
     border: 2px solid rgb(0, 157, 157);
     border-radius: 6px;
     text-decoration: none;
+    font-size: 1vw; /* responsive font size */
     font-weight: 600;
     transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
 }
